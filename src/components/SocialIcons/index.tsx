@@ -35,9 +35,28 @@ const SocialIcons: React.FC<Props> = ({ size, color }) => {
 
   return (
     <IconsContainer>
-      <Instagram width={iconSize} height={iconSize} fill={color} />
-      <Linkedin width={iconSize} height={iconSize} fill={color} />
-      <Github width={iconSize} height={iconSize} fill={color} />
+      <Instagram
+        width={iconSize}
+        height={iconSize}
+        fill={color}
+        onClick={() => window.open('https://www.instagram.com/bia.schwartz')}
+      />
+      <Linkedin
+        width={iconSize}
+        height={iconSize}
+        fill={color}
+        onClick={() =>
+          window.open(
+            'https://www.linkedin.com/in/beatriz-schwartz-sabbatini-barbosa-491619178/',
+          )
+        }
+      />
+      <Github
+        width={iconSize}
+        height={iconSize}
+        fill={color}
+        onClick={() => window.open('https://github.com/beatrizsabbatini')}
+      />
     </IconsContainer>
   );
 };
