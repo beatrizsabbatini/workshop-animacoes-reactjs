@@ -1,22 +1,28 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
-import { Container } from './styles';
+import { Container, NavItem } from './styles';
 
 const Header: React.FC = () => {
+  const location = useLocation();
+
   return (
     <Container>
       <nav>
         <Link to="/" style={{ textDecoration: 'none' }}>
-          <h3>Home</h3>
+          <NavItem isSelected={location.pathname === '/'}>Home</NavItem>
         </Link>
 
         <Link to="/tecnologias" style={{ textDecoration: 'none' }}>
-          <h3>Technologies</h3>
+          <NavItem isSelected={location.pathname === '/tecnologias'}>
+            Technologies
+          </NavItem>
         </Link>
 
         <Link to="/portfolio" style={{ textDecoration: 'none' }}>
-          <h3>Portfolio</h3>
+          <NavItem isSelected={location.pathname === '/portfolio'}>
+            Portfolio
+          </NavItem>
         </Link>
       </nav>
     </Container>
