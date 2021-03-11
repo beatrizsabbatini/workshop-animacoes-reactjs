@@ -13,6 +13,7 @@ export const PortfolioContainer = styled.div`
   flex-wrap: wrap;
   width: 100%;
   margin-top: 10vh;
+  overflow: hidden;
 `;
 
 export const PortfolioItem = styled.div<{ background: string }>`

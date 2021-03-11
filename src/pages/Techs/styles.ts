@@ -47,7 +47,7 @@ export const ParallaxContainer = styled.div`
     }
 
     &:nth-child(6) {
-      top: 80%;
+      top: 60%;
       left: 60%;
       transform: scale(0.7);
       opacity: 0.8;

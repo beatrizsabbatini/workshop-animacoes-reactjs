@@ -18,8 +18,8 @@ export const Content = styled.div<MainContainerProps>`
   flex-direction: column;
   align-items: center;
   justify-content: ${({ justifyContent }) => justifyContent || 'space-around'};
-  height: 100%;
+  height: 100vh;
   width: 50vw;
   max-width: 900px;
-  padding-top: 5vh;
+  padding-top: 3vh;
 `;
