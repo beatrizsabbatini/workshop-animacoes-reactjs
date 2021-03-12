@@ -84,10 +84,4 @@ export const PictureContainer = styled.div`
   z-index: 2;
   top: 0;
   left: 30%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  align-self: flex-start;
-  margin-top: 5vh;
-  */
+*/
