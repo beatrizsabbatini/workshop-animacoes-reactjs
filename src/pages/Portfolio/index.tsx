@@ -16,15 +16,9 @@ const Portfolio: React.FC = () => {
   };
 
   const portfolioContainerVariants = {
-    hidden: {
-      opacity: 0.5,
-      scale: 0,
-    },
     visible: {
-      opacity: 1,
-      scale: 1,
       transition: {
-        delayChildren: 0.5,
+        delayChildren: 0.5, // tempo que deve aguardar para iniciar animação
         staggerChildren: 0.2,
       },
     },
