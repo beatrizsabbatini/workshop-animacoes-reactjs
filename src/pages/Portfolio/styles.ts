@@ -1,5 +1,9 @@
 import styled, { css } from 'styled-components';
 
+interface PortfolioItemProps {
+  background: string;
+}
+
 export const PictureAndIcons = styled.div`
   display: flex;
   flex-direction: column;
@@ -16,7 +20,7 @@ export const PortfolioContainer = styled.div`
   overflow: hidden;
 `;
 
-export const PortfolioItem = styled.div<{ background: string }>`
+export const PortfolioItem = styled.div<PortfolioItemProps>`
   width: 30%;
   height: 180px;
   margin: 5px;
