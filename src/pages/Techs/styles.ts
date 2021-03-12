@@ -15,7 +15,7 @@ export const ParallaxContainer = styled.div`
       top: 20%;
       left: 70%;
       transform: scale(0.5);
-      opacity: 0.4;
+      opacity: 0.2;
     }
 
     &:nth-child(2) {
@@ -29,14 +29,14 @@ export const ParallaxContainer = styled.div`
       top: 55%;
       left: 0%;
       transform: scale(0.8);
-      opacity: 0.6;
+      opacity: 0.8;
     }
 
     &:nth-child(4) {
       top: 35%;
       left: 35%;
       transform: scale(0.9);
-      opacity: 0.9;
+      opacity: 1;
     }
 
     &:nth-child(5) {
@@ -57,7 +57,7 @@ export const ParallaxContainer = styled.div`
       top: 15%;
       left: 8%;
       transform: scale(0.9);
-      opacity: 0.8;
+      opacity: 0.4;
     }
   }
 
