@@ -7,7 +7,7 @@ import { jobs } from '../../constants/mock';
 import { PictureAndIcons, PortfolioContainer, PortfolioItem } from './styles';
 
 const Portfolio: React.FC = () => {
-  const parallaxItem = {
+  const portfolioItemVariants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
       y: 0,
@@ -15,7 +15,7 @@ const Portfolio: React.FC = () => {
     },
   };
 
-  const container = {
+  const portfolioContainerVariants = {
     hidden: {
       opacity: 0.5,
       scale: 0,
@@ -39,13 +39,13 @@ const Portfolio: React.FC = () => {
       <PortfolioContainer
         initial="hidden"
         animate="visible"
-        variants={container}
+        variants={portfolioContainerVariants}
       >
         {jobs.map(item => (
           <PortfolioItem
             key={item.id}
             background={item.image}
-            variants={parallaxItem}
+            variants={portfolioItemVariants}
           />
         ))}
       </PortfolioContainer>
