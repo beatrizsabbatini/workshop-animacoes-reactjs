@@ -15,11 +15,7 @@ const Techs: React.FC = () => {
           <ProfilePicture size="small" />
           <SocialIcons size="small" color="#79C5AE" />
         </PictureContainer>
-        <ParallaxContainer
-          initial={{ y: 100 }}
-          animate={{ y: 0 }}
-          transition={{ duration: 1 }}
-        >
+        <ParallaxContainer>
           {techs.map(item => (
             <ParallaxWord item={item}>{item.name}</ParallaxWord>
           ))}

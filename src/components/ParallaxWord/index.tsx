@@ -14,7 +14,7 @@ interface Item {
 
 const ParallaxWord: React.FC<ParallaxWordProps> = ({ item, children }) => {
   const { scrollY } = useViewportScroll();
-  const yPosition = useTransform(scrollY, item.yValues, [0, -100]);
+  const yPosition = useTransform(scrollY, item.yValues, [0, -600]); // (posição atual no scroll, inputRange, outputRange)
 
   return (
     <motion.h1 style={{ y: yPosition }} animate={{ scale: item.scale }}>
