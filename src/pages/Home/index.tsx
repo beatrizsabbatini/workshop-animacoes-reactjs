@@ -18,11 +18,12 @@ const Home: React.FC = () => {
         </RowContainer>
 
         <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet.
+          Oi! Meu nome é Bia e sou uma graduanda de Engenharia de Software.
+          Atualmente me encontro no meu último ano da faculdade (se Deus quiser
+          😂) e ao mesmo tempo, trabalho em tempo integral. Gosto muito de
+          front-end porém a meta desse ano é me tornar fullstack! Neste workshop
+          estarei passando um pouquinho sobre o meu conhecimento de animações
+          para o desenvolvimento de aplicações web e mobile :)
         </p>
       </TopContainer>
 
