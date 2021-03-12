@@ -5,6 +5,7 @@ export const ParallaxContainer = styled.div`
   height: 100vh;
   position: relative;
   overflow: hidden;
+  //z-index: 1;
 
   h1 {
     position: absolute;
@@ -77,3 +78,16 @@ export const PictureContainer = styled.div`
   align-self: flex-start;
   margin-top: 5vh;
 `;
+
+/*
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  margin-top: 5vh;
+  */
