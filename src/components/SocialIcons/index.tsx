@@ -34,7 +34,7 @@ const SocialIcons: React.FC<Props> = ({ size, color }) => {
   }, [size]);
 
   return (
-    <IconsContainer>
+    <IconsContainer layoutId="social-icons" transition={{ duration: 1 }}>
       <Instagram
         width={iconSize}
         height={iconSize}

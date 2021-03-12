@@ -58,29 +58,43 @@ export const techs = [
   {
     id: 0,
     name: 'HTML',
+    yValues: [0, 200],
+    scale: 0.5,
   },
   {
     id: 1,
     name: 'CSS',
+    yValues: [0, 100],
+    scale: 0.6,
   },
   {
     id: 2,
     name: 'JavaScript',
+    yValues: [0, 400],
+    scale: 0.8,
   },
   {
     id: 3,
     name: 'ReactJS',
+    yValues: [0, 100],
+    scale: 0.9,
   },
   {
     id: 4,
     name: 'React Native',
+    yValues: [0, 250],
+    scale: 0.6,
   },
   {
     id: 5,
     name: 'GraphQl',
+    yValues: [0, 80],
+    scale: 0.7,
   },
   {
     id: 6,
     name: 'NodeJS',
+    yValues: [0, 200],
+    scale: 0.7,
   },
 ];

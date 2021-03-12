@@ -1,8 +1,9 @@
 import styled, { css } from 'styled-components';
+import { motion } from 'framer-motion';
 
 import { Props } from '.';
 
-export const Picture = styled.img<Props>`
+export const Picture = styled(motion.img)<Props>`
   border-radius: 50%;
   min-height: 100px;
   min-width: 100px;

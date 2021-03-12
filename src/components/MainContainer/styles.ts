@@ -9,7 +9,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
   perspective: 2px;
 `;
 

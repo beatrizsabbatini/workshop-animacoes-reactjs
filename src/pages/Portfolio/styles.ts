@@ -1,4 +1,9 @@
 import styled, { css } from 'styled-components';
+import { motion } from 'framer-motion';
+
+interface PortfolioItemProps {
+  background: string;
+}
 
 export const PictureAndIcons = styled.div`
   display: flex;
@@ -7,7 +12,7 @@ export const PictureAndIcons = styled.div`
   margin-top: 5vh;
 `;
 
-export const PortfolioContainer = styled.div`
+export const PortfolioContainer = styled(motion.div)`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -16,7 +21,7 @@ export const PortfolioContainer = styled.div`
   overflow: hidden;
 `;
 
-export const PortfolioItem = styled.div<{ background: string }>`
+export const PortfolioItem = styled(motion.div)<PortfolioItemProps>`
   width: 30%;
   height: 180px;
   margin: 5px;
